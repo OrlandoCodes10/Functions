@@ -4,9 +4,11 @@ function singSong() {
     console.log("ME");
 }
 
-function greet(firstName) {
+function greet(firstName, lastName) {
     console.log(`firstName is: ${firstName}`)
     // console.lag("HI!")
 }
 
-greet()
+greet('George', 'Clooney')
+
+function repeat(str)
